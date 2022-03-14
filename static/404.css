@@ -1,0 +1,115 @@
+body {
+    background-image: url(https://gitee.com/pencail/WhiteWings/raw/master/image/404.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color: #444;
+    margin: 0;
+    font: normal 14px/20px Helvetica, Arial, PingFang SC, Microsoft YaHei, WenQuanYi Micro Hei, tohoma, sans-serif;
+    background-color: #f9f9f9;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: default;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 20%;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    height: 100%;
+}
+
+h1 {
+    margin: 5px 0 0 0;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: normal;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.text {
+    text-align: center;
+}
+
+.photo {
+    border: white 3px solid;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+    transition: all .5s;
+}
+
+.photo:hover {
+    border: rgb(122, 223, 248) 3px solid;
+    transition: all .5s;
+    transform: rotate(360deg);
+    /* Chrome */
+    -webkit-transform: rotate(360deg);
+    /* Firefox */
+    -moz-transform: rotate(360deg);
+    /* Opera */
+    -o-transform: rotate(360deg);
+    /* IE 9 */
+    -ms-transform: rotate(360deg);
+}
+
+.navigation {
+    display: inline-block;
+    margin: 20px 100px 0 20px;
+}
+
+.navigation a {
+    padding: 10px 20px;
+    border: gray 1px solid;
+    border-radius: 20px;
+    color: #ffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.navigation a:hover {
+    border-color: rgba(255, 255, 255, .3);
+    background: rgba(255, 255, 255, .3);
+}
+
+.text .description {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ff5959;
+}
+
+.footer {
+    color: #f0f0f0;
+    font-size: 12px;
+    padding: 0px 20px 0px 20px;
+    height: 90px;
+    width: calc(100% - 40px);
+    margin-top: -90px;
+    /*    background-color: #474747;*/
+}
+
+.footer a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+#hitokoto {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
